@@ -1,2 +1,2 @@
 # tmp-design-example
-Proof of concept for example design
+Proof of concept for TMP Design example in bootstrap
