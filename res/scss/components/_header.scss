@@ -1,0 +1,42 @@
+
+/*
+ * Header Style
+*/
+
+header {
+	background-color: $bg-color-dark-blue;
+	color: white;
+
+	.toplink {
+		margin: 0px 5px;
+
+		li {
+			margin: 0 15px;
+		}
+
+		a {
+			font-size: 12px;
+		}
+
+		.langComponent {
+			font-size: 12px;
+		}
+	}
+
+	a {
+		color: #fff;
+		text-transform: uppercase;
+	}
+
+	.mainNav {
+		ul {
+			.menuItem {
+				margin: 0 15px;
+
+				a {
+					font-size: 16px;
+				}
+			}
+		}
+	}
+}

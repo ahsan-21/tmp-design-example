@@ -1,0 +1,26 @@
+{
+	"name": "tmp-design-example",
+	"version": "1.0.0",
+	"description": "Proof of concept for TMP Design example in bootstrap",
+	"main": "index.js",
+	"scripts": {
+		"build": "node-sass --include-path res/scss res/scss/main.scss dist/css/main.css",
+		"watch": "nodemon -e scss -x \"npm run build\""
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ahsan-21/tmp-design-example.git"
+	},
+	"author": "ahsan-21",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/ahsan-21/tmp-design-example/issues"
+	},
+	"homepage": "https://github.com/ahsan-21/tmp-design-example#readme",
+	"devDependencies": {
+		"@fortawesome/fontawesome-free": "^5.11.2",
+		"bootstrap": "^4.3.1",
+		"node-sass": "^4.13.0",
+		"nodemon": "^1.19.4"
+	}
+}

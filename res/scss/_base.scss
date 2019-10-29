@@ -1,0 +1,37 @@
+
+/*
+ * Base style
+*/
+
+body {
+	background: #fff;
+	font-family: $font-family-main;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $font-family-heading;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	color: #fff;
+	cursor: pointer;
+
+	&:hover {
+		color: #fff;
+	}
+}
+a:not([href]):not([tabindex]) {
+	color: #fff;
+	text-decoration: none;
+}
+a:not([href]):not([tabindex]):hover,
+a:not([href]):not([tabindex]):focus {
+	color: #fff;
+	text-decoration: underline;
+}
