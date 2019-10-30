@@ -1,0 +1,23 @@
+
+/*
+ * Section Style
+*/
+
+main {
+	.section-2 {
+
+		.overWidthSection {
+			position: absolute;
+			top: 5%;
+			left: 10%;
+			z-index: 11;
+			opacity: 0.7;
+			width: 140%;
+			height: 100%;
+
+			background: url("../images/tree.png") no-repeat;
+			background-position: left center;
+			background-size: auto 100%;
+		}
+	}
+}
