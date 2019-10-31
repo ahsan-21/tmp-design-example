@@ -7057,11 +7057,42 @@ a:not([href]):not([tabindex]):hover, a:not([href]):not([tabindex]):focus {
   color: #fff;
   text-decoration: underline; }
 
+.lightGreenBg {
+  background-color: #3f6979; }
+
+.drakGreenBg {
+  background-color: #06353f; }
+
 .lightBlueTxt {
   color: #40d1d6; }
+  .lightBlueTxt:hover {
+    color: #40d1d6; }
+
+.greyTxt {
+  color: #bbbbbb; }
+  .greyTxt:hover {
+    color: #bbbbbb; }
 
 .whiteTxt {
   color: white; }
+
+.container-fluid {
+  max-width: 1440px; }
+
+.darkGreenTxt {
+  color: #3f6979; }
+
+.fs-3 {
+  font-size: 3rem; }
+
+.link {
+  text-transform: uppercase;
+  font-size: 14px; }
+  .link.sm-link {
+    font-size: 12px; }
+
+.text-underline {
+  text-decoration: underline; }
 
 /*
  * Header Style
@@ -7167,18 +7198,87 @@ main .section-2 .overWidthSection {
   background-position: left center;
   background-size: auto 100%; }
 
+main .section-2 a {
+  text-transform: uppercase; }
+
 /*
  * Section Style
 */
+main .section-3 {
+  background: #f2f2f2;
+  padding-bottom: 5rem; }
+
 /*
  * Section Style
 */
+main .section-4 .moveUp {
+  margin-top: -120px; }
+  @media (max-width: 1199.98px) {
+    main .section-4 .moveUp {
+      margin-top: -100px; } }
+  @media (max-width: 575.98px) {
+    main .section-4 .moveUp {
+      margin-top: 0px; } }
+
+main .section-4 .extraPadding {
+  padding: 4rem 6rem; }
+  @media (max-width: 767.98px) {
+    main .section-4 .extraPadding {
+      padding: 3rem 5rem; } }
+  @media (max-width: 575.98px) {
+    main .section-4 .extraPadding {
+      padding: 2rem; } }
+
 /*
  * Section Style
 */
+main .section-5 {
+  padding-top: 10rem;
+  padding-bottom: 7rem; }
+  main .section-5 .container {
+    position: relative; }
+  main .section-5 .bgGlobe {
+    background-image: url("../images/globle.png");
+    width: 200px;
+    height: 170%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    top: -31%;
+    right: -200px;
+    z-index: 0; }
+
 /*
  * Section Style
 */
+main .section-6 {
+  padding-top: 7rem;
+  padding-bottom: 10rem; }
+  main .section-6 .nlForm1 {
+    position: relative; }
+    main .section-6 .nlForm1 .field {
+      font-size: 14px;
+      border: 1px solid #bbbbbb;
+      color: gray; }
+      main .section-6 .nlForm1 .field::placeholder {
+        color: #bbbbbb; }
+      main .section-6 .nlForm1 .field:focus {
+        outline: none; }
+    main .section-6 .nlForm1 .btn {
+      position: absolute;
+      font-size: 1rem;
+      padding: 0;
+      margin: 0;
+      border-left: 1px solid;
+      border-radius: 0;
+      top: 0;
+      right: 0;
+      height: 100%; }
+  main .section-6 .icon-link {
+    font-size: 2rem;
+    cursor: pointer; }
+
 /*
  * Section Style
 */

@@ -4,5 +4,29 @@
 */
 
 main {
-	.section-1 {}
+	.section-4 {
+		.moveUp {
+			margin-top: -120px;
+
+			@include media-breakpoint-down(lg) {
+				margin-top: -100px;
+			}
+
+			@include media-breakpoint-down(xs) {
+				margin-top: 0px;
+			}
+		}
+
+		.extraPadding {
+			padding: 4rem 6rem;
+
+			@include media-breakpoint-down(sm) {
+				padding: 3rem 5rem;
+			}
+
+			@include media-breakpoint-down(xs) {
+				padding: 2rem;
+			}
+		}
+	}
 }

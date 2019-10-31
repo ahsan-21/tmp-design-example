@@ -39,9 +39,49 @@ a:not([href]):not([tabindex]):focus {
 	text-decoration: underline;
 }
 
+.lightGreenBg {
+	background-color: $bg-color-light-green;
+}
+.drakGreenBg {
+	background-color: $bg-color-dark-green;
+}
 .lightBlueTxt {
 	color: $text-light-blue-color;
+	&:hover {
+		color: $text-light-blue-color;
+	}
 }
+
+.greyTxt {
+	color: $text-grey-color;
+	&:hover {
+		color: $text-grey-color;
+	}
+}
+
 .whiteTxt {
 	color: white;
+}
+.container-fluid {
+	max-width: 1440px;
+}
+.darkGreenTxt {
+	color: $bg-color-light-green;
+}
+
+.fs-3 {
+	font-size: 3rem;
+}
+
+.link {
+	text-transform: uppercase;
+	font-size: 14px;
+
+	&.sm-link {
+		font-size: 12px;
+	}
+}
+
+.text-underline {
+	text-decoration: underline;
 }
