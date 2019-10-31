@@ -39,4 +39,19 @@ header {
 			}
 		}
 	}
+
+	.smMenu {
+		display: none;
+	}
+	@include media-breakpoint-down(lg) {
+		.smMenu {
+			display: block;
+		}
+
+		.navWrapper {
+			.toplink, .mainNav {
+				display: none !important;
+			}
+		}
+	}
 }

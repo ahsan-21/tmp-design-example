@@ -8,6 +8,11 @@ main {
 		padding-top: 7rem;
 		padding-bottom: 10rem;
 
+		@include media-breakpoint-down(sm) {
+			padding-top: 3rem;
+			padding-bottom: 5rem;
+		}
+
 		.nlForm1 {
 			position: relative;
 

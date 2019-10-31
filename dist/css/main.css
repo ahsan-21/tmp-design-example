@@ -7115,6 +7115,13 @@ header {
     margin: 0 15px; }
     header .mainNav ul .menuItem a {
       font-size: 16px; }
+  header .smMenu {
+    display: none; }
+  @media (max-width: 1199.98px) {
+    header .smMenu {
+      display: block; }
+    header .navWrapper .toplink, header .navWrapper .mainNav {
+      display: none !important; } }
 
 /*
  * Section Style
@@ -7169,7 +7176,7 @@ main .section-1 {
       main .section-1 .extendedPortion {
         width: 100%; } }
   main .section-1 .motoPortion {
-    width: 100%;
+    width: 110%;
     height: 165%;
     position: absolute;
     top: 0;
@@ -7177,11 +7184,27 @@ main .section-1 {
     background: #40d1d6;
     color: white;
     z-index: 5; }
+    @media (max-width: 767.98px) {
+      main .section-1 .motoPortion {
+        left: 45%; } }
+    @media (max-width: 575.98px) {
+      main .section-1 .motoPortion {
+        display: none; } }
     main .section-1 .motoPortion h2 {
       text-align: center;
       bottom: 10%;
       position: absolute;
-      left: 17%; }
+      left: 15%; }
+      @media (max-width: 1199.98px) {
+        main .section-1 .motoPortion h2 {
+          bottom: 5%; } }
+      @media (max-width: 991.98px) {
+        main .section-1 .motoPortion h2 {
+          bottom: 0;
+          left: 6%; } }
+      @media (max-width: 767.98px) {
+        main .section-1 .motoPortion h2 {
+          left: 3%; } }
 
 /*
  * Section Style
@@ -7284,6 +7307,10 @@ main .section-4 .extraPadding {
 main .section-5 {
   padding-top: 10rem;
   padding-bottom: 7rem; }
+  @media (max-width: 767.98px) {
+    main .section-5 {
+      padding-top: 5rem;
+      padding-bottom: 3rem; } }
   main .section-5 .container {
     position: relative; }
   main .section-5 .bgGlobe {
@@ -7304,6 +7331,10 @@ main .section-5 {
 main .section-6 {
   padding-top: 7rem;
   padding-bottom: 10rem; }
+  @media (max-width: 767.98px) {
+    main .section-6 {
+      padding-top: 3rem;
+      padding-bottom: 5rem; } }
   main .section-6 .nlForm1 {
     position: relative; }
     main .section-6 .nlForm1 .field {
@@ -7339,10 +7370,11 @@ footer {
   padding: 20px 0px; }
   footer .footerNav {
     text-align: center;
-    margin-bottom: 0px; }
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
     footer .footerNav li {
-      display: inline;
-      margin: 0 1rem; }
+      padding: 1rem; }
       footer .footerNav li a {
         color: #fff;
         text-transform: uppercase;
